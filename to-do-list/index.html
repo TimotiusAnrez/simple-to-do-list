@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <title>To-Do-List</title>
+</head>
+<body>
+
+    <!--First we need to make a form that will be use to input to do list item
+    more information about form tag search for w3schools form-->
+    <header>
+        <h3>To do List</h3>
+        <form>
+            <input type="text" name='input'>
+            <button class="add-button" type="submit">
+                <i class="fas fa-plus-square"></i>
+            </button>
+        </form>
+    </header>
+    <!--this div class is for the list of things that we have input in form-->
+    <div class="to-do-container">
+        <ul class="To-Do-List">
+        </ul>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
